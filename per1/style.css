@@ -1,0 +1,16 @@
+/* universal selector, gunakan untuk memberikan styling ke semua tag html yang kita miliki */
+* {
+  /* kode dibawah ini, berarti kita akan memberikan warna backround untuk website kita dengan warna yellow */
+  background-color: yellow;
+}
+
+/* Element selector, digunakan untuk mentargetkan tag tertentu, dan dapat berdampak  ke seluruh tag terkait */
+p {
+  /* Kode dibawah ini berarti kita akan memberikan semua styling huruf italic ke semua tag p yang kita miliki */
+
+  font-style: italic;
+}
+
+.external-css {
+  color: green;
+}
